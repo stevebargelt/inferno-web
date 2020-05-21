@@ -12,3 +12,7 @@
 
 <Tailwindcss />
 <h1>Hello {name}!</h1>
+{(async function() {
+  let { text } = await (await fetch(`/api/status`)).json();
+  document.querySelector('#name').textContent = text;
+})()}
