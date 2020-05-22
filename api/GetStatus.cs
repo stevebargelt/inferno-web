@@ -52,7 +52,7 @@ namespace Infero.Function
             {
                 // string payload = await response.Content.ReadAsStringAsync();
                 // return JsonConvert.DeserializeObject<SmokerStatus>(payload);
-                responseMessage = "IT FUCKING WORKED"
+                responseMessage = "IT FUCKING WORKED";
             }
             else
             {
