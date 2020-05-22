@@ -23,10 +23,10 @@
     "titleBar.inactiveForeground": "#e7e7e799"
   },
   "peacock.color": "#791b24",
-  "azureFunctions.deploySubpath": "api",
+  "azureFunctions.deploySubpath": "api/bin/Release/netcoreapp3.1/publish",
   "azureFunctions.postDeployTask": "npm install",
-  "azureFunctions.projectLanguage": "JavaScript",
+  "azureFunctions.projectLanguage": "C#",
   "azureFunctions.projectRuntime": "~3",
   "debug.internalConsoleOptions": "neverOpen",
-  "azureFunctions.preDeployTask": "npm prune"
+  "azureFunctions.preDeployTask": "publish"
 }
